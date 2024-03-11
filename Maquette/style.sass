@@ -1,0 +1,38 @@
+/* Module Nav */
+
+*
+    margin: 0px
+    padding: 0px
+    
+body
+    background: #EEEEEE
+    background: -webkit-linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831)
+    background: linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831)
+    background-blend-mode: multiply
+
+nav 
+    padding: 10px
+
+p
+    font-family: 'Lora', serif
+
+@for $i from 1 through 10
+    h#{$i}
+      font-family: 'Open Sans', sans-serif
+
+@media screen and ( max-width: 991px )
+    .sidebar
+        background-color: rgba(255,255,255, 0.15)
+        backdrop-filter: blur(10px)
+
+.navbar-nav .nav-item .nav-link
+    color: black
+    
+.decale
+    margin-left: 10%
+
+.container 
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh

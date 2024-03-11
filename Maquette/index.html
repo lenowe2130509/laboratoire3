@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>CEPI</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <a class="navbar-brand" href="index.html"><img src="image/cepi1.png" width="120" height="96"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNavDropdown" style="color: black;">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><h1 style="color: black">Accueil</h1></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="Forum.html"><h1 style="color: black">Forum</h1></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="Support.html"><h1 style="color: black">Support</h1></a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="Aide.html"><h1 style="color: black">Aide</h1></a>
+            </li>            
+        </ul>
+        <a class="navbar-brand" href="connexion.html"><img src="image/connection.png" width="120" height="96"></a>
+    </div>
+</nav>
+  </br>
+  <form>
+    <div class="row">
+        <div class="col-lg-6 mb-3">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Rechercher" aria-label="Rechercher" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Rechercher</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-3">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Trier par:</span>
+            </div>
+            <select class="custom-select">
+              <option selected>Select</option>
+              <option value="1">Alphabétique (A-Z)</option>
+              <option value="2">Alphabétique (Z-A)</option>
+              <option value="3">Date</option>
+            </select>
+          </div>
+        </div>
+    </div>
+  </form>
+    <div class="row" id="Publications">
+      <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" >
+            <img src="image/cepi1.png" class="img-fluid mx-auto d-block" width="120" height="96" alt="Article 1">
+              <div class="card-body">
+                  <h5 class="card-title">CEPI</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed iste voluptas explicabo. Itaque amet accusamus repudiandae beatae minus dignissimos praesentium voluptatum corporis adipisci illum! Asperiores culpa amet ad enim?</p>
+                  <a href="blog.html" class="btn btn-primary" id="Lire">Lire la suite</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </br>
+  </br>
+    <footer>
+      <div class="d-flex justify-content-center">
+        <!-- Facebook -->
+        <a href="https://fr-ca.facebook.com/" class="mr-5">
+          <i class="fab fa-facebook-square" ><img src="image/facebook.png" width="60" height="48"></i>
+        </a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/" class="mr-5">
+          <i class="fab fa-twitter-square"><img src="image/twitter.png" width="60" height="48"></i>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://ca.linkedin.com/" class="mr-5">
+          <i class="fab fa-linkedin"><img src="image/linkedin.png" width="60" height="48"></i>
+        </a>
+      </div>
+      <p class="text-center" style="color: white;"> </br> Centre d'Expertise et de Perfectionnement en Informatique</br> 2022</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

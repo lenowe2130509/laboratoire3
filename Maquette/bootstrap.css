@@ -1,0 +1,76 @@
+/* Module Nav */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #EEEEEE;
+  background: -webkit-linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831);
+  background: linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831);
+  background-blend-mode: multiply;
+}
+
+nav {
+  padding: 10px;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h7 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h8 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h9 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h10 {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+.navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+.decale {
+  margin-left: 10%;
+}
+
+/*# sourceMappingURL=bootstrap.css.map */

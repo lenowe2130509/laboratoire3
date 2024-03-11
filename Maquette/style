@@ -1,0 +1,39 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*h1,h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*p{
+    font-family: 'Lora', serif;
+}
+
+/* nav {
+    background: #222831;  /* Fallback for non-webkit browsers 
+    background: -webkit-linear-gradient(to bottom, #222831, #393E46, #00ADB5, #EEEEEE);  /* Pour chrome et safari 
+    background: linear-gradient(to bottom, #222831, #393E46, #00ADB5, #EEEEEE);  /*pour les autres navigateurs 
+    color: white; /* Couleur du texte pour une bonne lisibilité 
+    padding: 10px; /* Ajouter un peu d'espace pour séparer le texte du bord du nav 
+}
+
+/*body {
+    background: #EEEEEE;  /* Fallback for non-webkit browsers 
+    background: -webkit-linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46, #222831); 
+}
+/*
+body {
+    background: #393E46;  /* Fallback for non-webkit browsers 
+    background: -webkit-linear-gradient(to bottom, #393E46, #00ADB5, #EEEEEE);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #393E46, #00ADB5, #EEEEEE);  
+}
+
+body {
+    background: #EEEEEE;  /* Fallback for non-webkit browsers 
+    background: -webkit-linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #EEEEEE, #00ADB5, #393E46); 
+}
+*/
